@@ -267,7 +267,7 @@ def profile():
     #print("Dependency Tree:", dependency_tree)
     #print("Semantic Roles:", semantic_roles)
     #final2=final1+final
-    final2 = custom_ner(textinput)
+    #final2 = custom_ner(textinput)
     final3 = ready_rules()
     lst =[]
     passed_text(textinput)
