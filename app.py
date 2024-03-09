@@ -274,7 +274,7 @@ def profile():
     """for que in final3:
         lst.append(que[1])"""
 
-    final =  final2+final3
+    final =  final3
     questions=[]
     for val in final:
         if val!=' ' and val not in questions: 
@@ -293,5 +293,5 @@ def index():
     
 
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
