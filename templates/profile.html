@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<h2>Generated Questions Page</h2>
+<div>
+    <p>Questions Generated :</p>
+    <table>
+        <ul>
+
+    {% for index in questions %}
+        
+        <li>{{index}}</li>
+        
+        
+    {% endfor %}
+
+</ul>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,5 @@
+*.json filter=lfs diff=lfs merge=lfs -text
+Corona2.json filter=lfs diff=lfs merge=lfs -text
+model-best/* filter=lfs diff=lfs merge=lfs -text
+venv/* filter=lfs diff=lfs merge=lfs -text
+model-best/vocab/vectors filter=lfs diff=lfs merge=lfs -text

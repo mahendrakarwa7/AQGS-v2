@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Welcome</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body class="loggedin">
+		<nav class="navtop">
+			<div>
+				<h1>Automatic Question Generation System</h1>
+                
+			</div>
+		</nav>
+		<div class="content">
+		<h2>Welcome</h2>
+        <center><p><h3>For Login Click Below Link</h3></p></center>
+        <center><form action="{{ url_for('login') }}" method="post">
+        <center><button>Login</button></center>
+        </form>
+        </center>
+        <center><p><h3>For Register Click Below Link</h3></p></center>
+        <center><form action="{{ url_for('register') }}" method="post">
+        <center><button>Register</button></center>
+        </form>
+        </center>
+		</div>
+	</body>
+</html>
+

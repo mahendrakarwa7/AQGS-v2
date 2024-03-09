@@ -1,0 +1,7 @@
+Flask
+Gunicorn
+flask-mysqldb==2.0.0
+pymysql
+textblob
+nltk
+spacy
